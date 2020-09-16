@@ -1,0 +1,15 @@
+  /home/dongman/Alldata/EMACS/simpleclass:
+  total used in directory 64 available 203850352
+  drwxr-xr-x 2 dongman dongman 4096  9월 16 00:52 .
+  drwxr-xr-x 5 dongman dongman 4096  9월 16 00:43 ..
+  -rwxr-xr-x 1 dongman dongman 8896  9월 16 00:51 a.out
+  -rw-r--r-- 1 dongman dongman   57  9월 16 00:44 header.cpp
+  -rw-r--r-- 1 dongman dongman   20  9월 16 00:43 header.h
+  -rw-r--r-- 1 dongman dongman  175  9월 16 00:48 simpleclass.cpp
+  -rw-r--r-- 1 dongman dongman  174  9월 16 00:48 simpleclass.cpp~
+  -rw-r--r-- 1 dongman dongman  115  9월 16 00:46 simpleclass.h
+  -rwxr-xr-x 1 dongman dongman 8384  9월 16 00:45 test
+  -rw-r--r-- 1 dongman dongman  168  9월 16 00:50 testclass.cpp
+  -rw-r--r-- 1 dongman dongman  169  9월 16 00:50 testclass.cpp~
+  lrwxrwxrwx 1 dongman dongman   30  9월 16 00:52 .#test.cpp -> dongman@node1.13135:1600174581
+  -rw-r--r-- 1 dongman dongman  192  9월 16 00:45 test.cpp

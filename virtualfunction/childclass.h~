@@ -1,0 +1,7 @@
+#include "parentclass.h"
+class child : public parentclass
+{
+  child();
+  ~child();
+  int Result();
+};
