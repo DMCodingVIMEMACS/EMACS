@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <string.h>
+#include "CList.h"
+int main(int argc,char** argv)
+{
+  CList kList;
+
+
+  int iSizeofList =10;
+  for(int i=0;i<iSizeofList;i++)
+    {
+      CList* pData = new CList();
+      pData->m_kData.m_ia = i;
+      strcpy(pData->m_kData.m_szData,"test");
+      kList.push_back(pData);
+    }
+  CList* pList = &kList;
+  for(int i=0;i<iSizeofList;i++)
+    {
+      printf("Print Data pData[%d]= %s\n",
+	     pList->m_kData.m_ia,pList->m_kData.m_szData);
+      pList = pList->m_pNext;
+      if(pList ==0)
+	{
+	  printf("Pos is Tail\n");
+	}
+    }
+  return 0;
+}

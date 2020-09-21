@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <vector>
+#include <algorithm>
+using namespace std;
+int main(int argc,char** argv)
+{
+  vector<int> kVector;
+  //Assign
+  for(int i=0;i<10;i++)
+    {
+      int iValue = rand()%10;
+      kVector.push_back(iValue);
+      printf("%d th iValue = %d\n",i,iValue);
+    }
+  sort.(kVector.begin(),kVector.end());
+  for(int i=0;i<10;i++)
+    {
+      printf("Sorted %d Th iValue = %d\n",i,kVector[i]);
+    }
+  return 0;
+  
+      
+}
